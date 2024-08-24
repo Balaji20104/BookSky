@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar{
+    background-color: aqua;
+    color: blue;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.container{
+    margin: 30px;
+    padding: 20px;
+}
+
+.book-container{
+     background-color: black;
+     padding: 25px;
+     margin: 20px;
+     color: white;
+     width: 25%;
+     border-radius: 10px;
+     display: inline-block;
+     vertical-align: top;
+}
+
+.book-container h1{
+    color: blue;
+    margin-bottom: 10px;
+}
+
+.book-container button{
+    background-color: aqua;
+    color: blue;
+    margin: 10px;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+}
+
+.button{
+    background-color: aqua;
+    color: blue;
+    border-radius: 100%;
+    padding: 20px;
+    border: none;
+    font-size: 30px;
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    z-index: 1;
+}
+
+.popuplayout{
+    background-color: black;
+    opacity: 80%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    display: none;
+}
+
+.popupbox{
+    background-color: rgb(111, 111, 173);
+    color: black;
+    width: 40%;
+    padding: 40px;
+    border-radius: 5px;
+    position: absolute;
+    top: 10%;
+    left: 24%;
+    z-index: 2;
+    display: none;
+}
+
+.popupbox h1{
+    margin: 10px;
+
+}
+.popupbox input{
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    border-bottom: solid black 2px;
+}
+
+.popupbox input:focus{
+    outline: none;
+}
+
+.popupbox textarea{
+    background-color: transparent;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    border: solid black 2px;
+}
+
+.popupbox textarea:focus{
+    outline: none;
+}
+
+.popupbox ::placeholder{
+    color: black;
+}
+
+.popupbox button{
+    margin: 5px;
+    padding: 10px;
+    background-color: black;
+    color:rgb(111, 111, 173); 
+    border-radius: 5px;
+    border: none;
+
+}

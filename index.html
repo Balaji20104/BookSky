@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookSky</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div class="navbar">
+        <h1>BookSky</h1>
+      </div>
+
+      <div class="container">
+        <div class="book-container">
+            <h1>RICH DAD POOR DAD</h1>
+            <h5>Robert</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, distinctio mollitia nihil dolore tenetur pariatur doloribus repellendus et aut laborum quas ab tempore iusto reiciendis molestias sequi facilis iste praesentium.</p>
+            <button onclick="deletebook(event)">Delete</button>
+        </div>
+      </div>
+
+      
+      <div class="popuplayout"></div> 
+      <div class="popupbox">
+        <h1>Add Book</h1>
+        <form>
+        <input type="text" id="booktitle" placeholder="Enter the book title">
+        <input type="text" id="bookauthor" placeholder="Enter the author name">
+        <textarea placeholder="Enter the short discription" id="bookdiscription"></textarea>
+
+        <button id="addbook">Add</button>
+        <button id="cancelbook">Cancel</button>
+    </form>
+      </div>
+        
+      <button class="button" id="addpopup">+</button>
+      
+
+      <iframe width="350" height="430" allow="microphone;" src="https://console.dialogflow.com/api-client/demo/embedded/2b136937-732e-43c3-8c8b-ef5758d828a4"></iframe>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
